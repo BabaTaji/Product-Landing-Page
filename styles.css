@@ -1,0 +1,195 @@
+
+* {
+    box-sizing: border-box;
+    overflow: none;
+}
+body {
+    background-color: antiquewhite;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    display: flex;
+    float: right;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    overflow: none;
+    background-color: silver;
+}
+
+nav ul {
+    list-style-type: none;
+    
+    
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+    
+#form > input {
+    width: 50%;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid rgb(77, 75, 75);
+}
+
+button {
+    margin: 10px;
+   background-color: yellow;
+    border: 1px rgb(126, 122, 122) solid;
+    border-radius: 5px;
+    height: 3em;
+    width: 8em;
+    
+}
+
+  #form > #submit {
+    margin: 10px;
+    background-color: yellow;
+    border: 1px rgb(126, 122, 122) solid;
+    border-radius: 5px;
+    height: 3em;
+    width: 8em;
+
+}
+
+@media screen and (max-width:300px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+#header {
+    display: block;
+    overflow: hidden;
+    float: left;
+     
+
+}
+
+#top {
+    position: relative;
+    top: auto;
+    margin: auto;
+    margin-top: -40px;
+}
+
+#top > i {
+    width: 25%;
+}
+
+#top > h1 {
+    width: 100%;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    
+    
+    
+}
+
+ .column {
+    margin: 10px 20px;
+    border: 2px solid rgb(77, 75, 75);
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+ 
+
+
+
+#header-img {
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 3px;
+
+}
+
+ul {
+    float: left;
+    
+}
+    
+
+
+li {
+    float: left;
+    padding: 80px;
+    padding-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    
+    
+}
+
+.cta {
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding: 50px;
+}
+
+
+    
+    
+    
+
+
+
+i {
+    padding-right: 20px;
+    float: left;
+    
+    
+}
+
+
+#premium, #shipping, #quality {
+    padding: 30px;
+    padding-left: 0;
+    margin-top: -20px;
+
+}
+
+
+
+iframe {
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    width: 100%;
+    background-color:silver;
+    text-align: right;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: Geneva, Verdana, sans-serif;
+   }
+
+
+
+
+    
